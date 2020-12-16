@@ -6,7 +6,7 @@ if (hourNow > 18) {
     greeting = 'Good evening!';
 } else if (hourNow > 12) {
     greeting = 'Good afternoon!';
-} ekse if (hourNow > 0) {
+} else if (hourNow > 0) {
     greeting = 'Good morning!';
 } else {
     greeting = 'Welcome!';
